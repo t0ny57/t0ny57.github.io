@@ -12,8 +12,16 @@ ul {
   margin: 1;
   padding: 0;
   overflow: hidden;
-  background-color: #dddddd;
+  background-color: #c9ad8c;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow:hidden;
 }
+
+
+
 li {
   float: left;
 }
@@ -27,8 +35,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 a:link, a:visited {
-  color: #03c;
-  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
 }
 a:hover, a:active, a:focus {
   color: #06f;
@@ -94,7 +103,7 @@ th, td {
     background: #222;
   }
   a:link, a:visited {
-    color: #9bf;
+    color:  black;
   }
   a:hover, a:active {
     color: #acf;
